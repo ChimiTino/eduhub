@@ -1,0 +1,30 @@
+{
+    "edu_cntr":
+[
+    {
+    "id": "english",
+    "subject": "English",
+    "icon":"RiIcons.RiEnglishInput",
+    "grades": [
+        {"grade":"Grade 8","grade_id":"grade_8_english"},
+        {"grade":"Grade 9","grade_id":"grade_9_english"},
+        {"grade":"Grade 10","grade_id":"grade_10_english"},
+        {"grade":"Grade 11","grade_id":"grade_11_english"},
+        {"grade":"Grade 12","grade_id":"grade_8_english"}
+    ]
+},
+{
+    "id":"life_sciences",
+    "subject":"Life Sciences",
+    "icon":"Fa.FaLeaf",
+    "grade":[
+    {"grade":"Grade 10","grade_id":"grade_10_mathematics"},
+    {"grade":"Grade 11","grade_id":"grade_11_mathematics"},
+    {"grade":"Grade 12","grade_id":"grade_10_mathematics"}
+    ]
+
+}
+
+
+
+]}
