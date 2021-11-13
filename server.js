@@ -1,10 +1,15 @@
-const jsonServer = require('json-server');
-const server = jsonServer.create();
-const router = jsonServer.router('grade.json');
-const middlewares = jsonServer.defaults();
-const port = process.env.PORT || 3000;
+const express = require("express");
+const app = express();
+const importData = require("./Components/Lists/grade.json")
+let port = process.env.PORT || 3000;
+app.get('/', (req, res) => {
+    res.send("Hello World");
+});
 
-server.use(middlewares);
-server.use(router);
+app.get('/school', (req, res) =>{
+    res.send(importData)
+} )
 
-server.listen(port);
+app.listen(port, () =>{
+    console.log("example app");
+})
