@@ -2,7 +2,7 @@
     "edu_cntr":
 [
     {
-    "id": "english",
+    "id":1,
     "subject": "English",
     "icon":"RiIcons.RiEnglishInput",
     "grades": [
@@ -14,7 +14,7 @@
     ]
 },
 {
-    "id":"life_sciences",
+    "id":2,
     "subject":"Life Sciences",
     "icon":"Fa.FaLeaf",
     "grade":[
@@ -23,8 +23,104 @@
     {"grade":"Grade 12","grade_id":"grade_10_mathematics"}
     ]
 
+},
+{
+     "id":3,
+    "subject":"Mathematics",
+     "icon":"Ciicons.CgMathDivide",
+     "grade":[
+
+        {"grade":"Grade 8",
+        "grade_id":"grade_8_mathematics",
+        "grade_topic":[
+        {"name":"Numbers, operations and relationships","topic_id":"gr8-numbers-operations-and-relationships" },
+        {"name":"Patterns, functions and algebra","topic_id":"gr8-patterns,-functions-and-algebra"},
+        {"name":"Space and shape","topic_id":"gr8-space-and-shape" },
+        {"name":"Measurement","topic_id":"gr8-measurement" },
+        {"name":"Data handling","topic_id":"gr8-data-handling" }
+        ]},
+    
+        {"grade":"Grade 9",
+        "grade_id":"grade_9_mathematics",
+        "grade_topic":[
+        {"name":"Numbers, operations and relationships","topic_id":"gr9-numbers-operations-and-relationships" },
+        {"name":"Patterns, functions and algebra","topic_id":"gr9-patterns,-functions-and-algebra" },
+        {"name":"Space and shape","topic_id":"gr9-space-and-shape" },
+        {"name":"Measurement","topic_id":"gr9-measurement" },
+        {"name":"Data handling","topic_id":"gr9-data-handling" }
+        ]},
+    
+
+        {"grade":"Grade 10",
+        "grade_id":"grade_10_mathematics",
+        "grade_topic":[
+    {"name": "Algebraic expressions", "topic_id":"gr10-algebraic-expressions"
+        
+    },
+    {"name": "Mathematics Grade 10: Number patterns", "topic_id":"gr10-number-patterns"},
+    {"name": "Mathematics Grade 10: Equations and inequalities", "topic_id":"gr10-equations-and-inequalities"},
+    {"name": "Mathematics Grade 10: Trigonometry", "topic_id":"gr10-trigonometry"},
+    {"name": "Mathematics Grade 10: Functions", "topic_id":"gr10-functions"},
+    {"name": "Mathematics Grade 10: Euclidean geometry", "topic_id":"gr10-euclidean-geometry"},
+    {"name": "Mathematics Grade 10: Analytical geometry", "topic_id":"gr10-analytical-geometry"},
+    {"name": "Mathematics Grade 10: Finance and growth","topic_id":"gr10-finance-and-growth"},
+    {"name": "Mathematics Grade 10: Statistics", "topic_id":"gr10-statistics"},
+    {"name": "Mathematics Grade 10: Euclidean geometry", "topic_id":"gr10-euclidean-geometry"},
+    {"name": "Mathematics Grade 10: Measurement", "topic_id":"gr10-measurement"},
+    {"name": "Mathematics Grade 10: Probability", "topic_id":"gr10-probability"}
+    ]},
+
+    {"grade":"Grade 11",
+    "grade_id":"grade_11_mathematics",
+    "grade_topic":[
+    {"name": "Mathematics Grade 11: Algebraic expressions", "topic_id":"gr11-algebraic-expressions"},
+    {"name": "Mathematics Grade 11: Exponents and surds", "topic_id":"gr11-exponents-and-surds"},
+    {"name": "Mathematics Grade 11: Number patterns", "topic_id":"gr11-number-patterns"},
+    {"name": "Mathematics Grade 11: Equations and inequalities", "topic_id":"gr11-equations-and-inequalities"},
+    {"name": "Mathematics Grade 11: Trigonometry", "topic_id":"gr11-trigonometry"},
+    {"name": "Mathematics Grade 11: Functions", "topic_id":"gr11-functions"},
+    {"name": "Mathematics Grade 11: Euclidean geometry", "topic_id":"gr11-euclidean-geometry"},
+    {"name": "Mathematics Grade 11: Analytical geometry", "topic_id":"gr11-analytical-geometry"},
+    {"name": "Mathematics Grade 11: Finance and growth", "topic_id":"gr11-finance-and-growth"},
+    {"name": "Mathematics Grade 11: Statistics", "topic_id":"gr11-statistics"},
+    {"name": "Mathematics Grade 11: Trigonometry', topic_id:'gr11-trigonometry"},
+    {"name": "Mathematics Grade 11: Euclidean geometry", "topic_id":"gr11-euclidean-geometry"},
+    {"name": "Mathematics Grade 11: Measurement", "topic_id":"gr11-measurement"},
+    {"name": "Mathematics Grade 11: Probability", "topic_id":"gr11-probability"}
+]},
+    {"grade":"Grade 12",
+    "grade_id":"grade_12_mathematics",
+    "grade_topic":[
+     {"name": "Mathematics Grade 12: Polynomials", "topic_id":"gr12-exponents-and-surds"},
+    {"name": "Mathematics Grade 12: Sequences and series", "topic_id":"gr12-number-patterns"},
+    {"name": "Mathematics Grade 12: Trigonometry", "topic_id":"gr12-trigonometry"},
+    {"name": "Mathematics Grade 12: Functions", "topic_id":"gr12-functions"},
+    {"name": "Mathematics Grade 12: Euclidean geometry", "topic_id":"gr12-euclidean-geometry"},
+    {"name": "Mathematics Grade 12: Analytical geometry", "topic_id":"gr12-analytical-geometry"},
+    {"name": "Mathematics Grade 12: Finance", "topic_id":"gr12-finance-and-growth"},
+    {"name": "Mathematics Grade 12: Differential calculus", "topic_id":"gr12-statistics"},
+    {"name": "Mathematics Grade 12: Trigonometry", "topic_id":"gr12-trigonometry"},
+    {"name": "Mathematics Grade 12: Euclidean geometry", "topic_id":"gr12-euclidean-geometry"},
+    {"name": "Mathematics Grade 12: Statistics", "topic_id":"gr12-statistics"},
+    {"name": "Mathematics Grade 12: Probability", "topic_id":"gr12-probability"}
+    ]}
+    ]
+
+},
+{
+    "questions": "",
+    "choices": [
+        "",
+        "",
+        "",
+        ""],
+    "awnswer":"",
+    "explanation":""
 }
 
 
 
 ]}
+
+
+
